@@ -1,3 +1,6 @@
 import cat from './images/cat-image.jpeg';
 
-export default []
+export default [{
+    src: {cat},
+    style: {}
+}]
