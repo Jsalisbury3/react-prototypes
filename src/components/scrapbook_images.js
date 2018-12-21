@@ -2,11 +2,9 @@ import React from 'react';
 
 export default props =>{
     console.log(props)
-    const{src}=props.about
-    console.log(src.cat);
+    const{src,style}=props.about
     return(
-        <img src={src.cat}/>
-        <img src={src.an2}/>
+        <img className="scrapbook-image hover" src={src} style={style}/>
     )
 }
 
