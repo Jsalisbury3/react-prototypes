@@ -3,6 +3,8 @@ import { Route } from 'react-router-dom';
 import Welcome from './welcome';
 import Nav from './nav';
 import Mac from './our_macarons';
+import Gifts from './gifts_parties';
+import Contact from './contact';
 
 
 export default () => {
@@ -11,6 +13,8 @@ export default () => {
             <Nav/>
             <Route exact path="/" component={Welcome}/>
             <Route path="/our_macarons" component={Mac}/>
+            <Route path="/gifts_parties" component={Gifts}/>
+            <Route path="/contact" component={Contact}/> 
         </div>
     )
 };
